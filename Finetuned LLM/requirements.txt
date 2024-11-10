@@ -1,0 +1,40 @@
+# Core web application
+streamlit==1.31.0
+streamlit-option-menu==0.3.12
+streamlit-lottie==0.0.5
+
+# Machine Learning and AI
+torch==2.2.0
+transformers==4.37.2
+accelerate==0.27.2
+bitsandbytes==0.41.3
+safetensors==0.4.2
+
+# Tunneling and deployment
+pyngrok==7.0.5
+
+# Data manipulation and analysis
+numpy==1.26.3
+pandas==2.2.0
+
+# Visualization
+plotly==5.18.0
+pillow==10.2.0
+
+# HTTP requests
+requests==2.31.0
+
+# API interaction
+python-dotenv==1.0.1
+
+# Progress bars and spinners
+tqdm==4.66.1
+
+# Optional: for better performance
+# nvidia-cuda-runtime-cu12==12.1.105  # Only if using NVIDIA GPU
+# nvidia-cudnn-cu12==8.9.2.26        # Only if using NVIDIA GPU
+
+# Development tools
+black==24.1.1         # Code formatting
+pylint==3.0.3         # Code analysis
+pytest==8.0.0         # Testing
